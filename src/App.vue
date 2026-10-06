@@ -4,7 +4,7 @@ const estudiante = ref('si');
 </script>
 
 <template>
-formulario de registro:
+Formulario para registro:
 <form>
 <label for='nombre'>nombre</label>
 <input type='text' name='nombre' id='nombre'><br>
@@ -22,5 +22,7 @@ NO <input type="radio" name="esutida_grupo" value="no" id="esutidan" v-model="es
 </form>
 </template>
 
+<style scoped> 
 
-<style scoped> </style>
+
+</style>
