@@ -8,6 +8,7 @@ hola mundo
  <li><router-link to="/">Inicio</router-link></li>
  <li><router-link to="/ejemplo">Ejemplo</router-link></li>
  <li><router-link to="/acerca">Acerca</router-link></li>
+ <li><router-link to="/crud">CRUD</router-link></li>
 </ul>
 </nav><hr>
 <router-view></router-view>
