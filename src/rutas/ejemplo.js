@@ -1,18 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import EjemploPagina from '@/paginas/EjemploPagina.vue'
-import InicioPagina from '@/paginas/InicioPagina.vue'
+import PaginaInicio from '@/paginas/PaginaInicio.vue'
+import PaginaEjemplo from '@/paginas/PaginaEjemplo.vue'
+
 const router = createRouter({
  history: createWebHistory(import.meta.env.BASE_URL),
  routes:[
    {
     path:'/',
-    component: InicioPagina,
+    component: PaginaInicio,
    },{
     path:'/ejemplo',
-    component: EjemploPagina,
+    component: PaginaEjemplo,
    },{
     path:'/acerca',
-    component: () => import('@/paginas/AcercaPagina.vue'),
+    component: () => import('@/paginas/PaginaAcerca.vue'),
    }
  ] 
 })
