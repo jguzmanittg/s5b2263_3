@@ -126,11 +126,9 @@ Cancelar
 <style scoped>
 #formulario {
  display: inline-block;
- border: 2px solid #000000;
+ border: 2px solid #e70202;
 }
 input {
  display: block;
-
-
 }
 </style>
