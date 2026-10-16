@@ -14,7 +14,11 @@ const router = createRouter({
    },{
     path:'/acerca',
     component: () => import('@/paginas/PaginaAcerca.vue'),
+   },{
+    path:'/crud',
+    component: () => import('@/paginas/PaginaDeCrud.vue'),
    }
+
  ] 
 })
 export default router
