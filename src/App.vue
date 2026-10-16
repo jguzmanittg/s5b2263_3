@@ -13,8 +13,11 @@ hola mundo
 </nav><hr>
 <router-view></router-view>
 </template>
-
 <style scoped>
-
+li {
+  list-style: none;
+  display: inline-flex;
+  margin: 10px;
+}
 </style>
 
