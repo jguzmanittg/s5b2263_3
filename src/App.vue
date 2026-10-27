@@ -1,8 +1,11 @@
 <script setup>
+import { useSesionStore } from '@/almacenes/sesion.js'
+const almacen = useSesionStore()
+
 </script>
 
 <template>
-hola mundo
+hola {{almacen.Nombre()}}
 <nav><ul>
  <li><a href="http://www.google.com">google</a></li>
  <li><router-link to="/">Inicio</router-link></li>
