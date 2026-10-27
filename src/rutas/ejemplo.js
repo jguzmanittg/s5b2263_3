@@ -16,8 +16,9 @@ const router = createRouter({
     component: () => import('@/paginas/PaginaAcerca.vue'),
    },{
     path:'/crud',
-    component: () => import('@/paginas/PaginaCRUD.vue'),
+    component: () => import('@/paginas/PaginaDeCRUD.vue'),
    }
+
  ] 
 })
 export default router
